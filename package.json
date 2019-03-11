@@ -49,7 +49,7 @@
     "@babel/preset-env": "^7.0.0",
     "@babel/preset-react": "^7.0.0",
     "@babel/register": "^7.0.0",
-    "aegir": "git+https://github.com/cryptoquick/aegir.git#8bea3f6e6fc271d54410949b02ee26d75c1928a4",
+    "aegir": "git+https://github.com/cryptoquick/aegir.git#32fa76e89baaa45deb498c608627de43f3d22e0b",
     "chai": "^4.1.2",
     "enzyme": "^2.9.1",
     "eslint-config-standard-react": "^5.0.0",
