@@ -1415,9 +1415,9 @@ acorn@^6.0.2, acorn@^6.0.5, acorn@^6.0.7:
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-6.1.1.tgz#7d25ae05bb8ad1f9b699108e1094ecd7884adc1f"
   integrity sha512-jPTiwtOxaHNaAPg/dmrJ/beuzLRnXtB0kQPQ8JpotKJgTB6rX6c8mlf315941pyjBSaPg8NHXS9fhP4u17DpGA==
 
-"aegir@git+https://github.com/cryptoquick/aegir.git#0bbbb2b2884dced8b5fc0d8e5233702637bd29d9":
+"aegir@git+https://github.com/cryptoquick/aegir.git#459be117ed3ccdc6fa64f938dcd67e45a6bc57dc":
   version "18.2.1"
-  resolved "git+https://github.com/cryptoquick/aegir.git#0bbbb2b2884dced8b5fc0d8e5233702637bd29d9"
+  resolved "git+https://github.com/cryptoquick/aegir.git#459be117ed3ccdc6fa64f938dcd67e45a6bc57dc"
   dependencies:
     "@babel/cli" "7.1.2"
     "@babel/core" "7.1.2"
@@ -1439,7 +1439,7 @@ acorn@^6.0.2, acorn@^6.0.5, acorn@^6.0.7:
     browserify-zlib "~0.2.0"
     bundlesize "~0.17.1"
     chalk "^2.4.1"
-    clean-documentation-theme "~0.5.2"
+    clean-documentation-theme "git+https://github.com/cryptoquick/clean-documentation-theme.git#6cb811b99a417553b8a9cfb31365b68bb0a17738"
     codecov "^3.1.0"
     conventional-changelog "^2.0.3"
     conventional-github-releaser "^2.0.0"
@@ -3285,11 +3285,11 @@ class-utils@^0.3.4:
     lazy-cache "^2.0.2"
     static-extend "^0.1.1"
 
-clean-documentation-theme@~0.5.2:
-  version "0.5.2"
-  resolved "https://registry.yarnpkg.com/clean-documentation-theme/-/clean-documentation-theme-0.5.2.tgz#2b4b3ae59842b4fbc376269c5442cbb959911da3"
-  integrity sha512-I57pY8V/TM76QsWDu6y+cb2GqyrRW3L9VLfMTHQaXqbmuqn2Jslf4mJc5di9GkOnLYErvCJnD1g69XRS69yN4g==
+"clean-documentation-theme@git+https://github.com/cryptoquick/clean-documentation-theme.git#6cb811b99a417553b8a9cfb31365b68bb0a17738":
+  version "0.5.1"
+  resolved "git+https://github.com/cryptoquick/clean-documentation-theme.git#6cb811b99a417553b8a9cfb31365b68bb0a17738"
   dependencies:
+    "@babel/core" "^7.0.0"
     babel-plugin-transform-inline-imports-commonjs "^1.2.0"
     concat-stream "^1.6.0"
     documentation "^5.3.0"
@@ -3305,7 +3305,7 @@ clean-documentation-theme@~0.5.2:
     react-icons "^2.2.5"
     react-pure-render "^1.0.2"
     vinyl "^2.1.0"
-    vinyl-fs "^2.4.4"
+    vinyl-fs "^3.0.3"
 
 cli-boxes@^1.0.0:
   version "1.0.0"
@@ -11857,7 +11857,7 @@ vfile@^3.0.0:
     unist-util-stringify-position "^1.0.0"
     vfile-message "^1.0.0"
 
-vinyl-fs@^2.3.1, vinyl-fs@^2.4.4:
+vinyl-fs@^2.3.1:
   version "2.4.4"
   resolved "https://registry.yarnpkg.com/vinyl-fs/-/vinyl-fs-2.4.4.tgz#be6ff3270cb55dfd7d3063640de81f25d7532239"
   dependencies:
