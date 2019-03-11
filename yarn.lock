@@ -1415,9 +1415,9 @@ acorn@^6.0.2, acorn@^6.0.5, acorn@^6.0.7:
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-6.1.1.tgz#7d25ae05bb8ad1f9b699108e1094ecd7884adc1f"
   integrity sha512-jPTiwtOxaHNaAPg/dmrJ/beuzLRnXtB0kQPQ8JpotKJgTB6rX6c8mlf315941pyjBSaPg8NHXS9fhP4u17DpGA==
 
-"aegir@git+https://github.com/cryptoquick/aegir.git#459be117ed3ccdc6fa64f938dcd67e45a6bc57dc":
+"aegir@git+https://github.com/cryptoquick/aegir.git#8bea3f6e6fc271d54410949b02ee26d75c1928a4":
   version "18.2.1"
-  resolved "git+https://github.com/cryptoquick/aegir.git#459be117ed3ccdc6fa64f938dcd67e45a6bc57dc"
+  resolved "git+https://github.com/cryptoquick/aegir.git#8bea3f6e6fc271d54410949b02ee26d75c1928a4"
   dependencies:
     "@babel/cli" "7.1.2"
     "@babel/core" "7.1.2"
@@ -1439,7 +1439,7 @@ acorn@^6.0.2, acorn@^6.0.5, acorn@^6.0.7:
     browserify-zlib "~0.2.0"
     bundlesize "~0.17.1"
     chalk "^2.4.1"
-    clean-documentation-theme "git+https://github.com/cryptoquick/clean-documentation-theme.git#6cb811b99a417553b8a9cfb31365b68bb0a17738"
+    clean-documentation-theme "git+https://github.com/cryptoquick/clean-documentation-theme.git#abe80d142694af0ed9d0159b8f30d36d2469ba6f"
     codecov "^3.1.0"
     conventional-changelog "^2.0.3"
     conventional-github-releaser "^2.0.0"
@@ -3285,9 +3285,9 @@ class-utils@^0.3.4:
     lazy-cache "^2.0.2"
     static-extend "^0.1.1"
 
-"clean-documentation-theme@git+https://github.com/cryptoquick/clean-documentation-theme.git#6cb811b99a417553b8a9cfb31365b68bb0a17738":
+"clean-documentation-theme@git+https://github.com/cryptoquick/clean-documentation-theme.git#abe80d142694af0ed9d0159b8f30d36d2469ba6f":
   version "0.5.1"
-  resolved "git+https://github.com/cryptoquick/clean-documentation-theme.git#6cb811b99a417553b8a9cfb31365b68bb0a17738"
+  resolved "git+https://github.com/cryptoquick/clean-documentation-theme.git#abe80d142694af0ed9d0159b8f30d36d2469ba6f"
   dependencies:
     "@babel/core" "^7.0.0"
     babel-plugin-transform-inline-imports-commonjs "^1.2.0"
