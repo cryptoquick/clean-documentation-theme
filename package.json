@@ -25,6 +25,7 @@
   "author": "Friedel Ziegelmayer <dignifiedquire@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "@babel/core": "^7.0.0",
     "babel-plugin-transform-inline-imports-commonjs": "^1.2.0",
     "concat-stream": "^1.6.0",
     "documentation": "^5.3.0",
@@ -40,19 +41,20 @@
     "react-icons": "^2.2.5",
     "react-pure-render": "^1.0.2",
     "vinyl": "^2.1.0",
-    "vinyl-fs": "^2.4.4"
+    "vinyl-fs": "^3.0.3"
   },
   "devDependencies": {
-    "aegir": "^12.0.2",
-    "babel-cli": "^6.26.0",
-    "babel-preset-es2015": "^6.24.1",
-    "babel-preset-react": "^6.24.1",
-    "babel-register": "^6.26.0",
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/register": "^7.0.0",
+    "aegir": "git+https://github.com/cryptoquick/aegir.git#0bbbb2b2884dced8b5fc0d8e5233702637bd29d9",
     "chai": "^4.1.2",
     "enzyme": "^2.9.1",
     "eslint-config-standard-react": "^5.0.0",
     "eslint-plugin-react": "^7.3.0",
-    "nyc": "^11.1.0",
+    "nyc": "^13.3.0",
     "react-addons-test-utils": "^15.6.0",
     "remark": "^8.0.0"
   },
